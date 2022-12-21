@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.contact{
+  /*  width:  100%;
+    height: 100vh;
+    background-image:url('images (2).jpg');
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    */
+    
+    position: relative;
+    min-height: 100vh;
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image :url('chart-graph-business-finance.jpg') ;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+
+.contact .content
+{
+    max-width: 800px;
+    text-align: right;
+
+}
+
+.contact .content p 
+{
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(22, 5, 74);
+}
+
+.text h3
+{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 14vh;
+    margin-top: 1vh;
+    color:rgb(27, 9, 112);
+}
+
+.contact .content h2
+{
+    font-size: 40px;
+    font-weight: 550;
+    color:rgb(147, 76, 19);
+    text-align: center;
+    
+    
+}
+.social-icon{
+    color:#13198d;
+    margin-left: 12vh;
+  
+    
+    
+
+}
+.social-icon:hover
+{
+    color:black;
+
+}
